@@ -11,7 +11,7 @@
   live_loop :programming do
       edgar_delgado_vega = [ "music", "code", "math", "wep_development" ] 
       hours = 8
-      synth :poetry, notes: edgar_delgado_vega.tick, release: "$\infty$"
+      synth :poetry, notes: edgar_delgado_vega.tick, release: $\infty$
       sleep hours
   end
 ```
